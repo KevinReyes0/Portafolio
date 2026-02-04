@@ -565,6 +565,27 @@ export const Principal = () => {
                             stat="60"
                             iconSrc="https://www.qftest.com/blog/resources/JavaFX.png"
                         />
+                        <StatsCard
+                            title="GoLang"
+                            stat="50"
+                            iconSrc="https://www.unimedia.tech/wp-content/uploads/2023/11/1280px-Go_Logo_Blue.svg_-1024x385.png"
+                        />
+                        <StatsCard
+                            title="Docker"
+                            stat="40"
+                            iconSrc="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/9da80837-50b3-478c-af3f-001e3ea1ff8b.png"
+                        />
+                    </SimpleGrid>
+                    <SimpleGrid
+                        mt={10}
+                        columns={{ base: 1, md: 3 }}
+                        spacing={{ base: 5, lg: 8 }}
+                    >
+                        <StatsCard
+                            title="PostgreSQL"
+                            stat="50"
+                            iconSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1280px-Postgresql_elephant.svg.png"
+                        />
                     </SimpleGrid>
                 </Container>
             </Box>
@@ -953,7 +974,7 @@ export const Principal = () => {
                                                     icon={<FaGithub size="28px" color="white" />}
                                                 />
                                             </a>
-                                            <a href="https://www.instagram.com/k3.__.vin?igsh=MWhneGtpemJodG8yNw==" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://www.instagram.com/s0yk.3v1n?igsh=emQwbm15Z3l4d3N0" target="_blank" rel="noopener noreferrer">
                                                 <IconButton
                                                     aria-label="instagram"
                                                     variant="ghost"
@@ -1025,7 +1046,7 @@ export const Principal = () => {
                     justify={{ base: 'center', md: 'space-between' }}
                     align={{ base: 'center', md: 'center' }}>
                     <Logo />
-                    <Text>© 2025 por Kevin Manuel Reyes Paz</Text>
+                    <Text>© 2026 por Kevin Manuel Reyes Paz</Text>
                     <Stack direction={'row'} spacing={6}>
                         <SocialButton label={'Facebook'} href={'https://www.facebook.com/kevin.paz.914677/'}>
                             <FaFacebook />
@@ -1033,7 +1054,7 @@ export const Principal = () => {
                         <SocialButton label={'Github'} href={'https://github.com/KevinReyes0'}>
                             <FaGithub />
                         </SocialButton>
-                        <SocialButton label={'Instagram'} href={'https://www.instagram.com/k3.__.vin?igsh=MWhneGtpemJodG8yNw=='}>
+                        <SocialButton label={'Instagram'} href={'https://www.instagram.com/s0yk.3v1n?igsh=emQwbm15Z3l4d3N0'}>
                             <FaInstagram />
                         </SocialButton>
                     </Stack>
